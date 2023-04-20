@@ -1,6 +1,7 @@
 {
   "name": "@wy/react-qr",
   "version": "0.1.0",
+  "license": "MIT",
   "description": "A React component library for reading QR codes using the device's camera",
   "keywords": [
     "react",
@@ -67,5 +68,14 @@
     "vite": "^4.3.0",
     "vite-plugin-dts": "^2.3.0",
     "vitest": "^0.30.1"
-  }
+  },
+  "author": "Wicaksana Pratama",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wypratama/react-qr"
+  },
+  "bugs": {
+    "url": "https://github.com/wypratama/react-qr/issues"
+  },
+  "homepage": "https://github.com/wypratama/react-qr#readme"
 }
