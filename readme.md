@@ -1,17 +1,17 @@
-# @wy/react-qr
+# @wypratama/react-qr
 
-`@wy/react-qr` is a React component library for scanning QR codes using the device's camera. This library leverages the `jsQR` library to decode QR codes and provides an easy-to-use React component for embedding a QR code reader into your application.
+`@wypratama/react-qr` is a React component library for scanning QR codes using the device's camera. This library leverages the `jsQR` library to decode QR codes and provides an easy-to-use React component for embedding a QR code reader into your application.
 
 ## Installation
 
 ```
-npm install @wy/react-qr
+npm install @wypratama/react-qr
 ```
 
 or
 
 ```sh
-yarn add @wy/react-qr
+yarn add @wypratama/react-qr
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Import the `QRReader` component from the library and use it in your React compon
 
 ```jsx
 import React from 'react';
-import QRReader from '@wy/react-qr';
+import QRReader from '@wypratama/react-qr';
 
 const App = () => {
   const handleResult = (result) => {
@@ -55,7 +55,7 @@ You can pass custom children and set `useFrame` to `false` if you want to custom
 
 ```jsx
 import React from 'react';
-import QRReader from '@wy/react-qr';
+import QRReader from '@wypratama/react-qr';
 
 const CustomFrame = () => (
   <div className='custom-frame'>{/* Your custom frame markup */}</div>

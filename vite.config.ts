@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.tsx"),
-      name: "@wy/react-qr",
+      name: "@wypratama/react-qr",
       formats: ['es', 'umd'],
       fileName: (format) => `react-qr.${format}.js`
     },
