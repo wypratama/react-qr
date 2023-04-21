@@ -23,7 +23,10 @@ jobs:
         run: npm i -g pnpm
 
       - name: Install deps and build (with cache)
-        uses: pnpm install --no-frozen-lockfile
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          run_install: true
+          extra_arguments: --no-frozen-lockfile
 
       - name: Lint
         run: pnpm run lint
