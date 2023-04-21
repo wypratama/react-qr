@@ -19,12 +19,10 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Install pnpm
-        run: npm i -g pnpm
-
-      - name: Install deps and build (with cache)
+      - name: Install pnpm and dependencies (with cache)
         uses: pnpm/action-setup@v2.0.1
         with:
+          version: latest
           run_install: true
           extra_arguments: --no-frozen-lockfile
 
