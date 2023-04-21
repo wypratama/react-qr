@@ -72,10 +72,13 @@
   "author": "Wicaksana Pratama",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wypratama/react-qr"
+    "url": "git+https://github.com/wypratama/react-qr.git"
   },
   "bugs": {
     "url": "https://github.com/wypratama/react-qr/issues"
   },
-  "homepage": "https://github.com/wypratama/react-qr#readme"
+  "homepage": "https://github.com/wypratama/react-qr#readme",
+  "directories": {
+    "test": "test"
+  }
 }
