@@ -29,13 +29,6 @@
     "test": "vitest run",
     "test:ui": "vitest --ui"
   },
-  "exports": {
-    ".": {
-      "import": "./dist/react-qr.es.js",
-      "require": "./dist/react-qr.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
-  },
   "peerDependencies": {
     "jsqr": "^1.4.0",
     "react": "^18.2.0",

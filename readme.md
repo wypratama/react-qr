@@ -16,11 +16,12 @@ yarn add @wypratama/react-qr
 
 ## Usage
 
-Import the `QRReader` component from the library and use it in your React component:
+Import the `QRReader` component from the library and it's style, and use it in your React component:
 
 ```jsx
 import React from 'react';
 import QRReader from '@wypratama/react-qr';
+import '@wypratama/react-qr/dist/style.css';
 
 const App = () => {
   const handleResult = (result) => {
