@@ -1,6 +1,6 @@
 {
   "name": "@wypratama/react-qr",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "A React component library for reading QR codes using the device's camera",
   "keywords": [
